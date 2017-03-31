@@ -2,7 +2,7 @@ import C from '../../../src/constants'
 import * as actions from '../../../src/component/action/EmployeeActions'
 import { setDefaultEmployee } from "../../../src/lib/employee/employeeHelper"
 
-describe('actions', () => {
+/*describe('actions', () => {
   it('should create an action to change several employee value', () => {
     const currentEmployee = setDefaultEmployee()
     const expectedAction = {
@@ -11,7 +11,7 @@ describe('actions', () => {
     }
     expect(actions.setEmployees(setDefaultEmployee())).toEqual(expectedAction)
   })
-})
+})*/
 
 describe('actions', () => {
   it('should create an action to change edit employee value', () => {
@@ -99,7 +99,7 @@ describe('actions', () => {
     expect(actions.changeOpenValidationMessage('locationValidation', false)).toEqual(expectedAction)
   })
 })
-
+/*
 describe('actions', () => {
   it('should create an action to update current employee value', () => {
     const employeeData = setDefaultEmployee()
@@ -109,4 +109,4 @@ describe('actions', () => {
     }
     expect(actions.updateCurrentEmployee(setDefaultEmployee())).toEqual(expectedAction)
   })
-})
+})*/
