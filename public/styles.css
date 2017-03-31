@@ -1,0 +1,186 @@
+body {
+  font: 16px/1 sans-serif;
+}
+#root {
+  height: 100%;
+}
+.app-bar-user-img{
+    position: absolute;
+    top: -5px;
+    left: 55px;
+}
+.app-bar-user-info{
+    position: absolute;
+    left: 115px;
+    top: 10px;
+    color: white;
+}
+.toolbar-search-group{
+    width: 40%;
+}
+.toolbar-tab-group{
+    width: 60%;
+}
+.menu-tab{
+    width: 100%;
+    padding-left: 10px;
+}
+.menu-content{
+    position: absolute;
+    top: 30px;
+}
+.employee-list-group{
+    width: 29%;
+    height: auto;
+    overflow-y: auto;
+}
+.no-record{
+    height: 70px;
+    line-height: 70px;
+    padding-left: 70px;
+    vertical-align: middle;
+    font-style: italic;
+    color: #aaaaaa;
+}
+.add-button-position{
+    position: absolute;
+    left: 400px;
+    bottom: 200px;
+}
+.paper-pull-right{
+    float: right;
+}
+.toggle-radio-button-position{
+    padding-top: 30px;
+    padding-right: 15px;
+}
+.menu-content{
+    min-height: 630px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+.content{
+    float: left;
+    min-width: 300px;
+    margin: 10px 25px 10px 25px;
+}
+.btn-add-tab-position{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+.grade-history-width{
+    float:left;
+    margin:10px;
+}
+.table-header-font{
+    color: #000000;
+}
+.family-member-header-tab{
+    width: 10%;
+}
+.pen-icon-margin{
+    margin-right: 15px;
+}
+.list-content{
+    height:500px;
+}
+.detail-content{
+    min-width:500px;
+    min-height:150px;
+    height: initial;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #D3D3D3;
+    overflow:auto;
+}
+.detail-content-left {
+    padding-top: 10px;
+    float: left;
+    width: 30%;
+    height:auto;
+}
+.detail-content-border-right{
+    float: right;
+    width: 45%;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #D3D3D3;
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: #D3D3D3;
+}
+.detail-content-divider-vertical{
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: #D3D3D3;
+    min-height:150px;
+    position:absolute;
+    left : 400px;
+    overflow-y:auto;
+}
+.detail-content-right {
+    float: left;
+    width: 60%;
+    height:auto;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.detail-content-pull-right{
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.detail-content-pull-right div{
+    float: right;
+}
+.detail-content-jobdesc{
+    width: 100%;
+    float: left;
+}
+.detail-dialog{
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.toggle-position{
+    text-align: right;
+}
+.footer-content{
+    width: 100%;
+    background: #5c6bc0;
+    clear: both;
+    position: relative;
+    z-index: -999;
+    height: 3em;
+    top: 50px;
+}
+.footer-button{
+    float: right;
+    margin: 5px;
+}
+.content-min-container {
+    display:block;
+    min-height: 350px;
+    height: 350px;
+    overflow: auto;
+}
+.content-min {
+    float: left;
+    min-width: 150px;
+    margin: 5px;
+}
+.content-x {
+    float: left;
+    margin: 5px;
+}
+.sort-criteria-add {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+input[type="file"] {
+    display: none;
+}

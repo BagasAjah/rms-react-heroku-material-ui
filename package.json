@@ -1,0 +1,29 @@
+{
+  "name": "rms-react-material-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "material-ui": "^0.16.6",
+    "moment": "^2.17.1",
+    "react": "^15.0.0",
+    "react-addons-update": "^15.4.2",
+    "react-dom": "^15.0.0",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "react-search-input": "^0.10.4",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-ultimate-pagination": "^1.0.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^1.0.3"
+  },
+  "devDependencies": {
+    "custom-react-scripts": "0.0.23"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
