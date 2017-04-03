@@ -8,3 +8,7 @@ cache:
 script:
   - npm test
   - npm run build
+deploy:
+  provider: heroku
+  api_key: c9c0d43d-0d43-4c74-987e-9a1d186eedff
+  buildpack: https://github.com/mars/create-react-app-buildpack.git
