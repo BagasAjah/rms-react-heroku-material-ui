@@ -31,7 +31,7 @@ class EmployeeTab extends Component {
         this.employeeTabClick=this.employeeTabClick.bind(this);
     }
 
-    componentWillMount=() => {debugger;
+    componentWillMount=() => {
         var currentTabLocationHash=browserHistory.getCurrentLocation().hash;
         var lastSlashIndex=currentTabLocationHash.lastIndexOf('/');
         var currentTabLocation=currentTabLocationHash.substring(lastSlashIndex  + 1);
